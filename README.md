@@ -40,7 +40,7 @@ Here's a walkthrough of implemented user stories (represented by an image of the
 
 <a href="https://github.com/samihah/TipsyCodepath/blob/master/AzimSamihah-TipsyCalculator.mov" target="_blank"><img src='https://github.com/samihah/TipsyCodepath/blob/master/TipsyHauteCoutureCalc.png?raw=true ' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
-GIF created with Quicktime Player).
+GIF created with Quicktime Player.
 
 ## Notes
 
