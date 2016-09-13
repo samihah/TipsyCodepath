@@ -36,9 +36,9 @@ Ways to improve Tipsy (note: there has been no user research done to validate an
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories (represented by an image of the final vision):
+Here's a walkthrough of implemented user stories (represented by an image of the vision - which ultimately ended up with a few cuts due to scope creep):
 
-<a href="https://github.com/samihah/TipsyCodepath/blob/master/AzimSamihah-TipsyCalculator.mov" target="_blank"><img src='/course_images/ios_for_designers/AzimSamihah-TipsyCalculator.mov' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+<a href="https://github.com/samihah/TipsyCodepath/blob/master/AzimSamihah-TipsyCalculator.mov" target="_blank"><img src='https://github.com/samihah/TipsyCodepath/blob/master/TipsyHauteCoutureCalc.png?raw=true ' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with Quicktime Player).
 
