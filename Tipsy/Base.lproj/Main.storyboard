@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Grumpy-Black36.otf">
+            <string>Grumpy-Black36</string>
+            <string>Grumpy-Black36</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Tipsy | Calculate Tips-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AkT-kJ-VSF"/>
+                        <viewControllerLayoutGuide type="bottom" id="RhH-De-Pbv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVS-9m-UzM">
+                                <rect key="frame" x="173" y="238" width="127" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="G4C-OK-zWo"/>
+                                    <constraint firstAttribute="width" constant="127" id="NB0-Qq-I8G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Grumpy-Black36" family="Grumpy" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAH-pb-c7b">
+                                <rect key="frame" x="36" y="79" width="248" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Gtq-8Y-Kq1"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Me-Q5-WvQ">
+                                <rect key="frame" x="34" y="236" width="25" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="god-9J-oAY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bup-Ab-R5f">
+                                <rect key="frame" x="270" y="309" width="38" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="urP-aE-NLU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0k-Fi-uQO">
+                                <rect key="frame" x="34" y="344" width="274" height="50"/>
+                                <fontDescription key="fontDescription" name="Grumpy-Black36" family="Grumpy" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter bill total" placeholder="Enter Bll Here" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tU7-dn-UHm">
+                                <rect key="frame" x="184" y="50" width="126" height="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="d8U-pu-lmp"/>
+                                </connections>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yim-Kw-Jbf">
+                                <rect key="frame" x="15" y="133" width="288" height="81"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="35s-cl-kC7"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="" image="segmentdefault10"/>
+                                    <segment title="" image="segmentdefault15"/>
+                                    <segment title="" image="segmentDefault-20percent"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="1mX-qZ-9aC"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h6G-Kb-48u">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="T5V-Kw-QWI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bup-Ab-R5f" secondAttribute="trailing" constant="-4" id="1SK-lS-yQN"/>
+                            <constraint firstItem="3Me-Q5-WvQ" firstAttribute="top" secondItem="yim-Kw-Jbf" secondAttribute="bottom" constant="23" id="4P2-F8-25m"/>
+                            <constraint firstItem="UVS-9m-UzM" firstAttribute="top" secondItem="yim-Kw-Jbf" secondAttribute="bottom" constant="25" id="5Xl-Rj-viA"/>
+                            <constraint firstItem="3Me-Q5-WvQ" firstAttribute="leading" secondItem="F0k-Fi-uQO" secondAttribute="leading" id="6ur-Qt-dYr"/>
+                            <constraint firstItem="xAH-pb-c7b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="8xN-sL-DrJ"/>
+                            <constraint firstItem="Bup-Ab-R5f" firstAttribute="top" secondItem="UVS-9m-UzM" secondAttribute="bottom" constant="50" id="HPw-Il-Jfd"/>
+                            <constraint firstItem="tU7-dn-UHm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="KUw-0G-wZA"/>
+                            <constraint firstItem="yim-Kw-Jbf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="LfN-w9-eG7"/>
+                            <constraint firstItem="Bup-Ab-R5f" firstAttribute="trailing" secondItem="F0k-Fi-uQO" secondAttribute="trailing" id="MHB-Wd-ImY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yim-Kw-Jbf" secondAttribute="trailing" constant="1" id="Rmj-3s-s8E"/>
+                            <constraint firstItem="3Me-Q5-WvQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="18" id="WVa-xx-4m6"/>
+                            <constraint firstItem="F0k-Fi-uQO" firstAttribute="top" secondItem="Bup-Ab-R5f" secondAttribute="bottom" constant="16" id="WxO-bl-Ncc"/>
+                            <constraint firstAttribute="trailing" secondItem="tU7-dn-UHm" secondAttribute="trailing" constant="10" id="dcR-aV-Aam"/>
+                            <constraint firstAttribute="trailing" secondItem="UVS-9m-UzM" secondAttribute="trailing" constant="20" id="lOO-Eh-D44"/>
+                            <constraint firstItem="yim-Kw-Jbf" firstAttribute="top" secondItem="AkT-kJ-VSF" secondAttribute="bottom" constant="113" id="qZO-W2-2ub"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xAH-pb-c7b" secondAttribute="trailing" constant="20" id="sqX-io-g8q"/>
+                            <constraint firstItem="UVS-9m-UzM" firstAttribute="firstBaseline" secondItem="3Me-Q5-WvQ" secondAttribute="baseline" id="y8p-RT-S49"/>
+                            <constraint firstItem="xAH-pb-c7b" firstAttribute="top" secondItem="tU7-dn-UHm" secondAttribute="bottom" constant="10" id="yZo-Zz-U09"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="DXd-kp-YAx" appends="YES" id="VeU-TO-qw5"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tipsy | Calculate Tips" id="0bK-NY-2RT"/>
+                    <connections>
+                        <outlet property="billField" destination="tU7-dn-UHm" id="mn1-fd-hza"/>
+                        <outlet property="tipControl" destination="yim-Kw-Jbf" id="qmH-mC-tJ7"/>
+                        <outlet property="tipLabel" destination="UVS-9m-UzM" id="3Rf-so-QPY"/>
+                        <outlet property="totalLabel" destination="F0k-Fi-uQO" id="780-0F-d4R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="DXd-kp-YAx">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="KdS-hj-urF"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="743" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgImage" width="375" height="667"/>
+        <image name="segmentDefault-20percent" width="232" height="160"/>
+        <image name="segmentdefault10" width="116" height="80"/>
+        <image name="segmentdefault15" width="116" height="80"/>
+    </resources>
+    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+</document>
