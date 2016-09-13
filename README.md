@@ -38,7 +38,7 @@ Ways to improve Tipsy (note: there has been no user research done to validate an
 
 Here's a walkthrough of implemented user stories (represented by an image of the vision - which ultimately ended up with a few cuts due to scope creep):
 
-<a href="https://github.com/samihah/TipsyCodepath/blob/master/AzimSamihah-TipsyCalculator.mov" target="_blank"><img src="https://github.com/samihah/TipsyHauteCouture-iOSDesigners/blob/master/AzimSamihah-TipsyCalculator.gif?raw=true" title="iOS for Designers" alt="iOS for Designers" style="max-width:50%;">
+<a href="https://github.com/samihah/TipsyCodepath/blob/master/AzimSamihah-TipsyCalculator.mov" target="_blank"><img src="https://github.com/samihah/TipsyHauteCouture-iOSDesigners/blob/master/AzimSamihah-TipsyCalculator.gif?raw=true" title="iOS for Designers" alt="iOS for Designers" style="max-width:30%;">
 
 title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
